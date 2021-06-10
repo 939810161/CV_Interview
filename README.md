@@ -1,6 +1,6 @@
 # CV_Interview
 
-## 特别感谢小伙伴们：
+## 特别感谢小伙伴们(排名不分先后，都是精英们！)：
 - **DarrenZhang**
 - **BJWang**
 - **小亦**
@@ -10,21 +10,31 @@
 
 这里是《百面计算机视觉第三版》面试题的更新，以往两版帮助了很多同学。这一版本，希望可以帮助更多的同学拿到**Dream offer。**
 
-这里面的面经有很多公式，最好的方案，是采用Chrome浏览器，再添加[GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related)拓展程序。
+## 如何看面经呢？
 
-**我们会将面经，首发于公众号"灿视学长"中，欢迎各位扫码关注！**
+- 这里面的面经有很多公式，最好的方案，是采用Chrome浏览器，再添加[GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related)拓展程序。
+
+- **建议下载在本地观看，每天可以pull拉取最新的仓库哦！**
+
+- **我们会将面经，首发于公众号"灿视学长"中，欢迎各位扫码关注！**
 
 
 ![qrcode_for_gh_13e431216f44_344 (3)](https://user-images.githubusercontent.com/47493620/118230064-9ff02200-b4bf-11eb-8cfb-501824bf4ecf.jpg)
 
+## 一. CV学习路线(没文章，学校不好，还想做cv算法？那就看看这个！)
 
-其中百面计算机视觉我们汇总于此，在**Github**中如果图片或者公式发现出问题了，请你点击去原文地址哈～ 这里给出汇总的地址：
+![CV从业人员必会技能！！](https://user-images.githubusercontent.com/47493620/119588215-e8360b00-be02-11eb-8802-f1a840487c85.png)
+
+我写了一篇公众号博文：[没文章，没背景，想做CV？那就按这个干！](https://mp.weixin.qq.com/s?__biz=MzkzNDIxMzE1NQ==&mid=2247485889&idx=1&sn=cc9e77174891a876264d087ba250c818&chksm=c241ea8df536639bb777b325bce49ef181d4ab2ea3f781b30ea964ae120e74f986ddbddbff0d&token=1223742475&lang=zh_CN#rd)
+
+其中我整理相对应的**视频课**与**电子书**的**学习路线资料**，百度网盘链接：[下载地址](https://pan.baidu.com/s/18xxCQftI5GOCfZOB3VLTIQ)，密码：nj6k
+
+**若地址失效，可以加我微信，我发给你就好～**
 
 
-[百面计算机视觉汇总贴](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkzNDIxMzE1NQ==&action=getalbum&album_id=1860258784426672132&scene=173&from_msgid=2247485568&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
 
+## 二. 百面计算机视觉
 
-## 具体题目
 ### 1. 深度学习相关
 [一文了解激活函数](./深度学习基础/激活函数.md)    
 [DenseNet详解](./深度学习基础/DenseNet.md)    
@@ -39,6 +49,7 @@
 [很全的Normalization汇总哦～](./深度学习基础/normalization.md)  
 [L1与L2正则的区别，L1为何是更稀疏？](./深度学习基础/L1与L2正则的比较.md)  
 [感受野](./深度学习基础/描述一下感受野.md)  
+[权重初始化](./深度学习基础/权重初始化的方法.md)   
 
 
 
@@ -51,15 +62,54 @@
 
 
 ### 3. C++/Python工程篇
-[指针与引用的区别](./C++与Python等工程篇/Pointer&References.md)
 
-### 4. 手撕代码汇总
-待补充
+[指针与引用的区别](./C++与Python等工程篇/Pointer&References.md)  
+[多态与继承之间的区别](./C++与Python等工程篇/Inheritance&Polymorphism.md)   
+[重载、重写与重定义的区别](./C++与Python等工程篇/03.overload&override&redefine.md)   
+[构造函数与析构函数可以是虚函数吗?](./C++与Python等工程篇/04.Constructors&Destructors.md)
 
 
-### 关于我
 
-待入学的博士生，曾经在腾讯与百度有过实习工作经历，在小公司带过团队。连续在19，20年推出过《百面计算机视觉》受到了一致好评。欢迎各位私信我，**加入《百面计算机视觉第三版》交流群～**
+### 4. 图像分类与图像分割篇
+#### 通用分类网络
+
+[Inception V1](./图像分割与图像分类/InceptionV1.md)   
+[InceptionV2V3](./图像分割与图像分类/InceptionV2V3.md)  
+[Inception4](./图像分割与图像分类/Inception4.md)  
+ 
+
+#### 轻量化网络设计
+[MobileNetV1](./图像分割与图像分类/MobileNet-V1.md)  
+[MobileNetV2](./图像分割与图像分类/MobileNet-V2.md)  
+[MobileNetV3](./图像分割与图像分类/MobileNet-V3.md)  
+
+#### 分割类
+[Deep Lab v1~V3+](./图像分割与图像分类/DeepLab.md)  
+[介绍下FCN与UNet](./图像分割与图像分类/fcn_unet.md)  
+[空洞卷积](./图像分割与图像分类/空洞卷积.md)  
+[语义分割loss汇总](./图像分割与图像分类/语义分割loss汇总.md)  
+
+### 5. 目标检测与关键点检测篇
+#### 目标检测
+[说下NMS？](./目标检测与关键点检测/nms.md).   
+[NMS及其优化](./目标检测与关键点检测/NMS及其优化.md)  
+[yolov1](./目标检测与关键点检测/yolov1.md)  
+[yolov2](./目标检测与关键点检测/yolov2.md)   
+[yolov3](./目标检测与关键点检测/yolov3.md)   
+
+### 6. 手撕代码汇总
+
+待补充～
+
+
+
+### 三. 如何写简历？
+
+[简历模板与写简历的套路总结](https://mp.weixin.qq.com/s?__biz=MzkzNDIxMzE1NQ==&mid=2247485095&idx=1&sn=b3fa4c5e87d2c883e4234a512b03f925&chksm=c241e5ebf5366cfd0e1e878d6f81cc441c39da645f53f470547a6e1ca8fad20d3de16f3055bb&token=507085599&lang=zh_CN#rd)
+
+### 四. 关于我
+
+**双非材料专业跨行人工智能，英年早婚，百度与腾讯退堂鼓首席鼓手。目前在复旦全日制读博，也在一边搞钱的帅比。 没啥本事，也就时间管理比较强，执行力还ok。欢迎加我微信，讨论人生～**
 
 
 ![欢迎加我微信](https://user-images.githubusercontent.com/47493620/118210526-14fe3000-b49d-11eb-8be1-ecc355fb11e2.jpeg)
