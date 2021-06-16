@@ -50,6 +50,7 @@
 [L1与L2正则的区别，L1为何是更稀疏？](./深度学习基础/L1与L2正则的比较.md)  
 [感受野](./深度学习基础/描述一下感受野.md)  
 [权重初始化](./深度学习基础/权重初始化的方法.md)   
+[label smoothing推导](./深度学习基础/labelsmoothing.md)  
 
 
 
@@ -66,7 +67,8 @@
 [指针与引用的区别](./C++与Python等工程篇/Pointer&References.md)  
 [多态与继承之间的区别](./C++与Python等工程篇/Inheritance&Polymorphism.md)   
 [重载、重写与重定义的区别](./C++与Python等工程篇/03.overload&override&redefine.md)   
-[构造函数与析构函数可以是虚函数吗?](./C++与Python等工程篇/04.Constructors&Destructors.md)
+[构造函数与析构函数可以是虚函数吗?](./C++与Python等工程篇/04.Constructors&Destructors.md)  
+[map和unordered_map区别及其优缺点](./C++与Python等工程篇/map.md)
 
 
 
@@ -79,9 +81,11 @@
  
 
 #### 轻量化网络设计
-[MobileNetV1](./图像分割与图像分类/MobileNet-V1.md)  
-[MobileNetV2](./图像分割与图像分类/MobileNet-V2.md)  
-[MobileNetV3](./图像分割与图像分类/MobileNet-V3.md)  
+[MobileNetV1详解](./图像分割与图像分类/MobileNet-V1.md)  
+[MobileNetV2详解](./图像分割与图像分类/MobileNet-V2.md)  
+[MobileNetV3详解](./图像分割与图像分类/MobileNet-V3.md)  
+[ShuffleNet-V1详解](./图像分割与图像分类/ShuffleNet-V1.md)  
+[ShuffleNet-V2详解](./图像分割与图像分类/ShuffleNet-V2.md)  
 
 #### 分割类
 [Deep Lab v1~V3+](./图像分割与图像分类/DeepLab.md)  
@@ -93,9 +97,9 @@
 #### 目标检测
 [说下NMS？](./目标检测与关键点检测/nms.md).   
 [NMS及其优化](./目标检测与关键点检测/NMS及其优化.md)  
-[yolov1](./目标检测与关键点检测/yolov1.md)  
-[yolov2](./目标检测与关键点检测/yolov2.md)   
-[yolov3](./目标检测与关键点检测/yolov3.md)   
+[yolov1梳理](./目标检测与关键点检测/yolov1.md)  
+[yolov2梳理](./目标检测与关键点检测/yolov2.md)   
+[yolov3梳理](./目标检测与关键点检测/yolov3.md)   
 
 ### 6. 手撕代码汇总
 
