@@ -1,6 +1,6 @@
 # CV_Interview
 
-## 特别感谢小伙伴们(排名不分先后，都是精英们！)：
+## 特别感谢小伙伴们(排名不分先后)：
 - **DarrenZhang**
 - **BJWang**
 - **小亦**
@@ -11,10 +11,10 @@
 这里是《百面计算机视觉第三版》面试题的更新，以往两版帮助了很多同学。这一版本，希望可以帮助更多的同学拿到**Dream offer。**
 
 ## 如何看面经呢？
-
-- 这里面的面经有很多公式，最好的方案，是采用Chrome浏览器，再添加[GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related)拓展程序。
-
 - **建议下载在本地观看，每天可以pull拉取最新的仓库哦！**
+
+- 这里面的面经有很多公式，可以采用Chrome浏览器，再添加[GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related)拓展程序。**但是，同样有很多公式，无法显示！**
+
 
 - **我们会将面经，首发于公众号"灿视学长"中，欢迎各位扫码关注！**
 
@@ -51,6 +51,11 @@
 [感受野](./深度学习基础/描述一下感受野.md)  
 [权重初始化](./深度学习基础/权重初始化的方法.md)   
 [label smoothing推导](./深度学习基础/labelsmoothing.md)  
+[重参数技巧的简述](./深度学习基础/reparameter.md)  
+[softmax及其相关变形](./深度学习基础/softmax及其相关变形.md)  
+[优化算法](./深度学习基础/优化算法.md)  
+
+
 
 
 
@@ -78,6 +83,8 @@
 [Inception V1](./图像分割与图像分类/InceptionV1.md)   
 [InceptionV2V3](./图像分割与图像分类/InceptionV2V3.md)  
 [Inception4](./图像分割与图像分类/Inception4.md)  
+[xception](./图像分割与图像分类/xception.md)  
+ 
  
 
 #### 轻量化网络设计
@@ -100,6 +107,9 @@
 [yolov1梳理](./目标检测与关键点检测/yolov1.md)  
 [yolov2梳理](./目标检测与关键点检测/yolov2.md)   
 [yolov3梳理](./目标检测与关键点检测/yolov3.md)   
+[yolov4_v5梳理](./目标检测与关键点检测/yolov4_v5.md)   
+[Weighted_Boxes_Fusion](./目标检测与关键点检测/Weighted_Boxes_Fusion.md)  
+
 
 ### 6. 手撕代码汇总
 
